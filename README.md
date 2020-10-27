@@ -9,9 +9,9 @@
  Stones may be played in *any* empty spot on the play field
 
  A stone is captured if each of the adjacent spaces are
- occupied by the opposite colored stone. See Diagram A below.
+ occupied by the opposite colored stone. See Diagram 1 below.
 
- (Diagram A)
+ (Diagram 1)
  (Three examples of a black piece being captured)
 
    a b c d e         a b c d e
@@ -46,9 +46,9 @@
  There are a few special edge cases.
  If a player places their piece on a square where they are surrounded
  on all available sides by the opponent's pieces, that player's piece
- is captured immediately. See Diagram B below.
+ is captured immediately. See Diagram 2 below.
  
-  (Diagram B)
+  (Diagram 2)
    (before)       (black's move)     (end result)
    a b c d e         a b c d e         a b c d e 
  1 . . . . .       1 . . . . .       1 . . . . . 
@@ -57,9 +57,9 @@
  4 . . w . w       4 . . w B w       4 . . w W w 
  5 . . . w .       5 . . . w .       5 . . . w . 
 
- The player that is in-turn will have prioritization on capturing, as show in Diagram C.
+ The player that is in-turn will have prioritization on capturing, as show in Diagram 3.
  
-  (Diagram C)
+  (Diagram 3)
    (before)       (black's move)     (end result)
    a b c d e         a b c d e         a b c d e
  1 . . . . .       1 . . . . .       1 . . . . .
@@ -73,10 +73,10 @@
  the board to the opposite edge.  Either player may connect
  any two opposite edges of the board. The player that 
  establishes contiguous stones from left to right or 
- top to bottom first wins. See Diagram D for examples of 
+ top to bottom first wins. See Diagram 4 for examples of 
  winning configurations.
 
- (Diagram D)
+ (Diagram 4)
  Black has won:   White has won:
    a b c d e        a b c d e
  1 . . B . .      1 . . W W W
