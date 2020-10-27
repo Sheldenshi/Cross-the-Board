@@ -1,4 +1,6 @@
 # Cross-the-Board
+## The next step would be implementing an AI Player, perhaps using Minimax Algorithm.
+### If anyone wants to implement an AI player, feel free to.
 ```
 """
  Rules for Cross the Board:
