@@ -1,7 +1,7 @@
-# Cross-the-Pond
+# Cross-the-Board
 ```
 """
- Rules for Cross the Pond:
+ Rules for Cross the Board:
 
  2 players alternate placing different colored stones
  on a 5x5 play field
